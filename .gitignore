@@ -1,0 +1,15 @@
+node_modules
+.next
+.next.bak-corrupt
+out
+.pnpm-store
+data/*.db
+data/*.db-*
+public/uploads/*
+!public/uploads/.gitkeep
+.env*
+!.env.example
+*.log
+.DS_Store
+.test-build
+*.tsbuildinfo

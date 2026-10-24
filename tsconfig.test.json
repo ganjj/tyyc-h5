@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "noEmit": false,
+    "outDir": ".test-build",
+    "rootDir": ".",
+    "incremental": false,
+    "plugins": [],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "tests/**/*.ts",
+    "src/lib/**/*.ts",
+    "src/app/api/chat/route.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}
